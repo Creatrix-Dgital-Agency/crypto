@@ -1,0 +1,21 @@
+{
+    "name": "@creatrix/crypto",
+    "version": "0.0.1",
+    "private":false,
+    "description": "Javacript crypto js",
+    "contributors": [
+        "Michel Mouallem <michel-mouallem@hotmail.com> (https://creatrix-lb.com)"
+    ],
+    "main": "./crypto.js",
+    "module": "./crypto.js",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/Creatrix-Dgital-Agency/crypto.git"
+    },
+    "author": "Creatrix Digital Agency <developers@creatrix-lb.com>",
+    "publishConfig": { "registry": "https://npm.pkg.github.com","access": "public","tag": "0.0.1" },
+    "license": "MIT",
+    "dependencies": {
+        "crypto-js": "3.3.0"
+    }
+}
