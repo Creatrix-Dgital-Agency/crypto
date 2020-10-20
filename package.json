@@ -10,7 +10,7 @@
     "module": "./crypto.js",
     "repository": {
         "type": "git",
-        "url": "git://github.com/Creatrix-Dgital-Agency/crypto.git"
+        "url": "git://github.com/creatrixlb/crypto.git"
     },
     "author": "Creatrix Digital Agency <developers@creatrix-lb.com>",
     "publishConfig": { "registry": "https://npm.pkg.github.com","access": "public","tag": "0.0.1" },
