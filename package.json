@@ -1,21 +1,32 @@
 {
     "name": "@creatrix/crypto",
     "version": "0.0.1",
-    "private":false,
-    "description": "Javacript crypto js",
-    "contributors": [
-        "Michel Mouallem <michel-mouallem@hotmail.com> (https://creatrix-lb.com)"
-    ],
-    "main": "./crypto.js",
-    "module": "./crypto.js",
-    "repository": {
-        "type": "git",
-        "url": "git://github.com/creatrixlb/crypto.git"
+    "description": "Javacript encrypt and decrypt using crypto js",
+    "main": "crypto.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "author": "Creatrix Digital Agency <developers@creatrix-lb.com>",
-    "publishConfig": { "registry": "https://npm.pkg.github.com","access": "public","tag": "0.0.1" },
-    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+ssh://git@github.com/creatrixlb/crypto.git"
+    },
     "dependencies": {
         "crypto-js": "3.3.0"
-    }
-}
+    },
+    "keywords": [
+      "encrypt",
+      "decrypt",
+      "data",
+      "using",
+      "javascript",
+      "crypto",
+      "creatrix"
+    ],
+    "author": "Creatrix Digital Agency <developer@creatrix-lb.com> (https://creatrix-lb.com)",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/creatrixlb/crypto/issues"
+    },
+    "homepage": "https://github.com/creatrixlb/crypto#readme"
+  }
+  
