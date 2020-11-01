@@ -13,6 +13,6 @@ import crypto from @creatrix/crypto;
 
 const {EncryptData,DecryptData}=useCrypto();
 
-const encrypteddata=EncryptData({id:'1',value:'2'},MYPASSWORD) //...........
+const encrypteddata=EncryptData({id:'1',value:'2'},MYPASSWORD) //return encryption data
 
 DecryptData(encrypteddata,MYPASSWORD) //{id:'1',value:'2'}
